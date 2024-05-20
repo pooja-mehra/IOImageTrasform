@@ -107,6 +107,6 @@
     ]
   },
   "customNodeUrls": [
-    "http://localhost:8081/dist/index.js"
+    "ioimagetrasformblob.onrender.com/dist/index.js"
   ]
 }
