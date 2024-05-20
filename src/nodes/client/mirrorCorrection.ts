@@ -1,7 +1,6 @@
 import type {
   CustomNodeInfo,
   Services,
-  VisualBlocksImage,
 } from "@visualblocks/custom-node-types";
 
 import { AutoModel, AutoProcessor, RawImage } from "@xenova/transformers";
@@ -17,7 +16,7 @@ import { NODE_SPEC } from './mirrorCorrection.specs'
     }
   
     async runWithInputs(inputs:any, services: Services) {
-        let {pic, toggle} = inputs;
+        let {pic, flip} = inputs;
         if (!pic?.canvasId) {
           // No input node
           this.dispatchEvent(
@@ -36,7 +35,7 @@ import { NODE_SPEC } from './mirrorCorrection.specs'
         mirroredImage.width = width;
         mirroredImage.height = height;
         const context = mirroredImage.getContext("2d")!;
-        if(toggle){
+        if(flip){
           context.translate(width, 0); 
           context.scale(-1, 1); 
           context.drawImage(i.toCanvas(), 0, 0);

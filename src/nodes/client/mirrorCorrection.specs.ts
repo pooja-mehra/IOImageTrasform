@@ -1,6 +1,5 @@
 import {
     DataType,
-    Category,
     EditorType,
   } from "@visualblocks/custom-node-types";
 
@@ -14,7 +13,7 @@ export const NODE_SPEC: any = {
   // Properties.
   'propertySpecs': [
     {
-      'name': 'toggle',
+      'name': 'flip',
       'type': DataType.BOOLEAN,
       defaultValue: false,
       'editorSpec': {

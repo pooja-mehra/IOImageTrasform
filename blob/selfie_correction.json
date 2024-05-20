@@ -1,9 +1,9 @@
 {
   "project": {
-    "name": "New project",
-    "id": "new",
-    "creationTs": 1715978248315,
-    "lastModifiedTs": 1715978284469
+    "name": "selfie_correction",
+    "id": "akochk",
+    "creationTs": 1716224594330,
+    "lastModifiedTs": 1716224627421
   },
   "graph": {
     "nodes": [
@@ -57,10 +57,10 @@
           "posY": 110.5,
           "width": 176,
           "height": 105,
-          "selected": true
+          "selected": false
         },
         "propValues": {
-          "toggle": false
+          "flip": false
         },
         "incomingEdges": {
           "pic": [
@@ -107,6 +107,6 @@
     ]
   },
   "customNodeUrls": [
-    "ioimagetrasformblob.onrender.com/dist/index.js"
+    "https://ioimagetrasformblob.onrender.com/dist/index.js"
   ]
 }
