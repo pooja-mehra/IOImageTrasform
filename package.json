@@ -11,6 +11,7 @@
     "dev:server": "npm run build -- --servedir=dist --serve=8080",
     "dev:tsc": "tsc --watch --preserveWatchOutput",
     "build": "esbuild --bundle ./src/index.ts --outfile=dist/index.js",
+    "start": "npx http-server --cors",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
