@@ -14,4 +14,4 @@ Bring it closer
 Identify what and where to add in caption
 
 
-To see the demo, go to: https://github.com/pooja-mehra/IOImageTrasform/tree/main/blob/{selfie_correction.json}
+To see the demo, go to: https://github.com/pooja-mehra/IOImageTrasform/tree/main/blob/selfie_correction.json
